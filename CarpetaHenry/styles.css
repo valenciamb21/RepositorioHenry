@@ -1,0 +1,57 @@
+body{
+    background-color: whitesmoke;
+}
+
+.title{
+    font-size: 3em;
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal{
+    font-size: 5em;
+    color: red;
+}
+
+.escudo{
+    width: 300px;
+    height: 300px;
+}
+
+#titulos{
+    /*viewport width */
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: rgba(235, 72, 72, 0.904);
+}
+
+#cards-container{
+    background-color: bisque;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
